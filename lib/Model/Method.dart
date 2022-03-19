@@ -21,8 +21,8 @@ class Method {
 }
 
 launchEmail() async {
-      if (await canLaunch("mailto:champ96k@gmail.com")) {
-        await launch("mailto:champ96k@gmail.com");
+      if (await canLaunch("mailto:domenico@domidev.net")) {
+        await launch("mailto:domenico@domidev.net");
       } else {
         throw 'Could not launch';
       }

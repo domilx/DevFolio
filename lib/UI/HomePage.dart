@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       IconButton(
                           icon: Icon(
-                            Icons.change_history,
+                            FontAwesomeIcons.home,
                             size: 32.0,
                             color: Color(0xff64FFDA),
                           ),
@@ -208,14 +208,7 @@ class _HomePageState extends State<HomePage> {
                           iconSize: 16.0,
                         ),
                         IconButton(
-                            icon: Icon(Icons.call),
-                            color: Color(0xffffA8B2D1),
-                            iconSize: 16.0,
-                            onPressed: () {
-                              method.launchCaller();
-                            }),
-                        IconButton(
-                            icon: Icon(Icons.mail),
+                            icon: Icon(FontAwesomeIcons.envelope),
                             color: Color(0xffffA8B2D1),
                             iconSize: 16.0,
                             onPressed: () {
@@ -268,7 +261,7 @@ class _HomePageState extends State<HomePage> {
                                   ),
                                   CustomText(
                                     text:
-                                        "I build Apps for Android, iOS, the web and robots.",
+                                        "I build Apps for pretty much every platform, yeah, even professional robots.",
                                     textsize: 56.0,
                                     color: Color(0xffCCD6F6).withOpacity(0.6),
                                     fontWeight: FontWeight.w700,
@@ -356,507 +349,108 @@ class _HomePageState extends State<HomePage> {
                                   child: Column(
                                     children: [
                                       MainTiitle(
-                                        number: "0.3",
+                                        number: "03.",
                                         text: "Some Things I've Built",
                                       ),
                                       SizedBox(
                                         height: size.height * 0.04,
                                       ),
+                                      
                                       FeatureProject(
-                                        imagePath: "images/pic9.jpg",
+                                        imagePath: "images/Robot2020.png",
                                         ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/domilx/");
+                                          method.launchURL("https://github.com/DevFolio");
                                         },
                                         projectDesc:
-                                            "A Mobile app for both Android and IOS. View your Status, Chat, and call history. The purpose of this projcet is to Learn Flutter complex UI Design.",
-                                        projectTitle: "WhatsaApp UI Clone",
+                                            "The FIRST Robotics Competition is an international high school robotics competition. Each year, teams of high school students, coaches, and mentors work during a six-week period to build robots capable of competing in that year's game that weigh up to 125 pounds. !*!*! This is a picture of the 2020 robot as the 2022 isnt done yet...",
+                                        projectTitle: "FRC Robotics Competitions",
+                                        tech1: "Java",
+                                        tech2: "WPILIB",
+                                        tech3: "LabVIEW RoboRIO",
+                                      ),
+                                      
+                                      FeatureProject(
+                                        imagePath: "images/DevFolio.png",
+                                        ontab: () {
+                                          method.launchURL(
+                                              "https://domidev.net/");
+                                        },
+                                        projectDesc:
+                                            "This site, written in Flutter, is inspired by Brittany Chiang's site but completely redone in Flutter. I have spent a very long time making this site which is why I deemed this site worth being a top project.",
+                                        projectTitle: "DevFolio",
                                         tech1: "Flutter",
-                                        tech2: "Dart",
-                                        tech3: "Flutter UI",
+                                        tech2: "Flutter Web",
+                                        tech3: "App",
+                                      ),
+                                      
+                                      FeatureProject(
+                                        imagePath: "images/editor.png",
+                                        ontab: () {
+                                          method.launchURL(
+                                              "https://editor.domidev.net/");
+                                        },
+                                        projectDesc:
+                                            "Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage",
+                                        projectTitle: "Editor.io",
+                                        tech1: "React",
+                                        tech2: "NodeJS",
+                                        tech3: "Markdown",
                                       ),
 
                                       FeatureProject(
-                                        imagePath: "images/pic2.jpg",
+                                        imagePath: "images/defcry.png",
                                         ontab: () {
                                           method.launchURL(
-                                              "https://github.com/champ96k/Flutter-Blog-App-using-Firebase");
+                                              "https://domidev.itch.io/defcry");
                                         },
                                         projectDesc:
-                                            "A blog application using Flutter and firebase, In this project implement Firebase CURD operation, User can add post as well see all the post.",
-                                        projectTitle: "Blog Application",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Firebase",
+                                            "Defcy is a platformer game meant to ruin people's day. It was built with rage in mind so take caution playing this game. Made with PICO-8 and lua.",
+                                        projectTitle: "defcry",
+                                        tech1: "PICO-8",
+                                        tech2: "Lua",
+                                        tech3: "JavaScript",
                                       ),
 
                                       FeatureProject(
-                                        imagePath: "images/pic3.png",
+                                        imagePath: "images/domiExec.png",
                                         ontab: () {
                                           method.launchURL(
-                                              "https://github.com/champ96k/Wallpaper-Hub-using-Flutter");
+                                              "https://github.com/domilx/domiExec");
                                         },
                                         projectDesc:
-                                            "A Wallpaper application Using Pixel API, to show more than 5k+ images. User can Search any images, as well as Download and directly set Image as Wallpaper.",
-                                        projectTitle: "Wallpaper Hub",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "API",
+                                            "Level 7+ Roblox Lua Executor as well as an Internal DLL Injector build entirely in Microsoft's WinForm .NET Framework.",
+                                        projectTitle: "domiExec",
+                                        tech1: ".NET",
+                                        tech2: "C#",
+                                        tech3: "Xaml",
                                       ),
-
+                                      
                                       FeatureProject(
-                                        imagePath: "images/pic4.jpg",
+                                        imagePath: "images/tsm.png",
                                         ontab: () {
                                           method.launchURL(
-                                              "https://github.com/champ96k/coronavirus-tracker-app");
+                                              "https://github.com/domilx/TrackServerManager");
                                         },
                                         projectDesc:
-                                            "A Flutter app to track Coronavirus outbreak, Current statistics of global total confirmed, deaths, recovered cases, Health news, coronavirus safety information and many more.",
-                                        projectTitle: "Covid19 Tracker",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "API",
+                                            "TrackServerManager is a simple minecraft server manager made in C# ",
+                                        projectTitle: "TrackServerManager",
+                                        tech1: ".NET",
+                                        tech2: "C#",
+                                        tech3: "Xaml",
                                       ),
-                                      //ff
+                                      
                                       FeatureProject(
-                                        imagePath: "images/pic5.jpg",
+                                        imagePath: "images/port.png",
                                         ontab: () {
                                           method.launchURL(
-                                              "https://github.com/champ96k/Gender-Predictor-Flutter-App");
+                                              "https://github.com/domilx/Portfolio3.0");
                                         },
                                         projectDesc:
-                                            "In this app you can predict the gender with the help of name and probability of that name.",
-                                        projectTitle: "Gender Predictor",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "API",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic6.jpg",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/News-Hours-Apps-Using-Rest-API");
-                                        },
-                                        projectDesc:
-                                            "complete news Application using rest API API link- https://newsapi.org, you can get all news.",
-                                        projectTitle: "News Hour",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "API",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic7.jpg",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-wallpaper-App-using-Firebase");
-                                        },
-                                        projectDesc:
-                                            "Flutter Wallpaper application using firebase as a backend with a cool animation, it show the all images that are store in firebase firestore.",
-                                        projectTitle: "Wallpaper App",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Firebase",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic8.jpg",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-Weather-Application");
-                                        },
-                                        projectDesc:
-                                            "Weather app. This weather app is one of best free weather apps with full features: Local weather, weather map (weather map service) and weather widgets. Widgets for Android: The weather radar widget free and clock widget weather with beautiful style.",
-                                        projectTitle: "Weather Application",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "API",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic10.jpg",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://pub.dev/packages/flutter_onboarding_screen");
-                                        },
-                                        projectDesc:
-                                            "A flutter package which help developer in creating a onboarding screens of their app.",
-                                        projectTitle:
-                                            "Flutter Onboarding Screen Package",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Dart Package",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic11.jpg",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-Neumorphic-Calculator-UI");
-                                        },
-                                        projectDesc:
-                                            "To explore the flutter Neumorphic design",
-                                        projectTitle: "Neumorphic Design",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      MainTiitle(
-                                        number: "0.4",
-                                        text: "Open Source Project",
-                                      ),
-
-                                      SizedBox(
-                                        height: size.height * 0.04,
-                                      ),
-
-                                      //other Projects
-                                      Container(
-                                        height: size.height * 0.86,
-                                        width: size.width - 100,
-                                        child: Column(
-                                          children: [
-                                            Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.spaceAround,
-                                              children: [
-                                                OSImages(
-                                                  image: "images/pic101.png",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic103.png",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic111.gif",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic113.jfif",
-                                                ),
-                                              ],
-                                            ),
-                                            SizedBox(
-                                              height: size.height * 0.04,
-                                            ),
-                                            Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.spaceAround,
-                                              children: [
-                                                CustomText(
-                                                  text: "Payment Getway",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Chat App",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Spotify Clone",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "TODO App",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-
-                                      //other Projects
-                                      Container(
-                                        height: size.height * 0.86,
-                                        width: size.width - 100,
-                                        child: Column(
-                                          children: [
-                                            Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.spaceAround,
-                                              children: [
-                                                OSImages(
-                                                  image: "images/pic114.png",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic115.png",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic116.jfif",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic117.png",
-                                                ),
-                                              ],
-                                            ),
-                                            SizedBox(
-                                              height: size.height * 0.04,
-                                            ),
-                                            Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.spaceAround,
-                                              children: [
-                                                CustomText(
-                                                  text: "Spannish Audio",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Drumpad",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Currency Converter",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Calculator",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-
-                                      //other Projects
-                                      Container(
-                                        height: size.height * 0.86,
-                                        width: size.width - 100,
-                                        child: Column(
-                                          children: [
-                                            Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.spaceAround,
-                                              children: [
-                                                OSImages(
-                                                  image: "images/pic118.jpeg",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic119.jpeg",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic120.png",
-                                                ),
-                                                OSImages(
-                                                  image: "images/pic121.png",
-                                                ),
-                                              ],
-                                            ),
-                                            SizedBox(
-                                              height: size.height * 0.04,
-                                            ),
-                                            Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.spaceAround,
-                                              children: [
-                                                CustomText(
-                                                  text: "Prime Videos UI",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Tic Tac Toe Game",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Currency Converter UI",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                                CustomText(
-                                                  text: "Love Calculator",
-                                                  textsize: 16.0,
-                                                  color: Colors.white
-                                                      .withOpacity(0.4),
-                                                  fontWeight: FontWeight.w700,
-                                                  letterSpacing: 1.75,
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic102.gif",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-Web-SolMusic-Landing-Page");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "SolMusic",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Web",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic104.png",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-UI-Kit");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Sign Up and Sign In",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic105.png",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-UI-Kit");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Sign up and Sign in",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic106.png",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flowers-Shop-Mobile-App-Store");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Online Flowers Shop",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic107.jfif",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Food-Delivery-App-UI");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Food delivery App",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic108.jfif",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-Plant-Shop-UI-Design");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Plant Nursery App",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic109.jfif",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Foody-App-UI-Design");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Foody",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic110.jfif",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Flutter-Online-Food-Order-App-UI");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Online Food order",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter UI",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic501.png",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Ganpati-Bappa-");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Ganpati Bappa",
-                                        tech1: "Dart",
-                                        tech2: "Flutter",
-                                        tech3: "Flutter Animation",
-                                      ),
-
-                                      FeatureProject(
-                                        imagePath: "images/pic506.png",
-                                        ontab: () {
-                                          method.launchURL(
-                                              "https://github.com/champ96k/Netflix-Web-Clone-Using-Flutter");
-                                        },
-                                        projectDesc:
-                                            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.",
-                                        projectTitle: "Flutter Netflix Web",
-                                        tech1: "Dart",
-                                        tech2: "Flutter Wen",
-                                        tech3: "Flutter UI",
+                                            "My new new (old) portfolio This project was built using these technologies.",
+                                        projectTitle: "Portfolio3.0",
+                                        tech1: "React.js",
+                                        tech2: "Node.js",
+                                        tech3: "Express.js",
                                       ),
                                     ],
                                   )),
@@ -901,7 +495,7 @@ class _HomePageState extends State<HomePage> {
                                           Wrap(
                                             children: [
                                               Text(
-                                                "Although I'm currently looking for SDE-1 opportunities, my inbox is \nalways open. Whether you have a question or just want to say hi, I'll try my \nbest to get back to you!",
+                                                "Although I'm currently attending class and am very busy with my robotics, my inbox is \nalways open. Whether you have a question or just want to say hi, I'll try my \nbest to get back to you!",
                                                 textAlign: TextAlign.center,
                                                 style: TextStyle(
                                                   color: Colors.white
@@ -966,7 +560,7 @@ class _HomePageState extends State<HomePage> {
                                           100,
                                       //color: Colors.white,
                                       child: Text(
-                                        "Designed & Built by Tushar Nikam 💙 Flutter",
+                                        "Designed & Built by Domenico Valentino 💜 Flutter",
                                         style: TextStyle(
                                           color: Colors.white.withOpacity(0.4),
                                           letterSpacing: 1.75,
@@ -993,7 +587,7 @@ class _HomePageState extends State<HomePage> {
                         RotatedBox(
                           quarterTurns: 45,
                           child: Text(
-                            "tusharnikam2021@gmail.com",
+                            "domenico@domidev.net",
                             style: TextStyle(
                               color: Colors.grey.withOpacity(0.6),
                               letterSpacing: 3.0,

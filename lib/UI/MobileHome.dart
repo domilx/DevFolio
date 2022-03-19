@@ -16,7 +16,7 @@ class _MobileHomeState extends State<MobileHome> {
     return Row(
       children: [
         Icon(
-          Icons.skip_next,
+          FontAwesomeIcons.arrowRight,
           color: Color(0xff64FFDA).withOpacity(0.6),
           size: 14.0,
         ),
@@ -705,7 +705,7 @@ class _MobileHomeState extends State<MobileHome> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       CustomText(
-                        text: "0.4 What's Next?",
+                        text: "04. What's Next?",
                         textsize: 16.0,
                         color: Color(0xff41FBDA),
                         letterSpacing: 3.0,

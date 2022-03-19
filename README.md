@@ -7,20 +7,20 @@ Software Developer Portfolio Template that helps you showcase your work and skil
 
 
 
-## To view a live demo,[Click Here](https://champ96k.github.io).
+## To view a live demo,[Click Here](https://domidev.net).
 
 
 
 ##  Platforms
 
--  [X] Andoid
+-  [X] Android
 -  [X] Windows
--  [X] linux
--  [ ] MacOS (probably)
--  [X] IOs
+-  [X] Linux
+-  [X] macOS
+-  [X] iOS
    
    
-##  Wanna Contribute? 🚀
+##  Want to Contribute? 🚀
   You can contribute by doing one of the following:
   - Starring the repository ⭐
   - Forking the repository 🍴
@@ -41,7 +41,7 @@ flutter upgrade
 flutter config --enable-web
 ```
 ### Create and run
-  To create a new app for use with web support (in addition to mobile support), run the following commands, substituting myap   with the name of your project:
+  To create a new app for use with web support (in addition to mobile support), run the following commands, substituting myapp with the name of your project:
 
 ```bash
 flutter create myapp
@@ -77,8 +77,6 @@ Run the following command to generate a release build:
 
 
 
-
-##### Design credit : [Brittany Chiang](https://www.linkedin.com/in/bchiang7/).
 
 
 For help getting started with Flutter, view our

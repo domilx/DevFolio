@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:potrtfolio/Widget/CustomText.dart';
 
 class About extends StatelessWidget {
@@ -6,7 +7,7 @@ class About extends StatelessWidget {
     return Row(
       children: [
         Icon(
-          Icons.skip_next,
+          FontAwesomeIcons.arrowRight,
           color: Color(0xff64FFDA).withOpacity(0.6),
           size: 14.0,
         ),
@@ -77,21 +78,21 @@ class About extends StatelessWidget {
                   children: [
                     CustomText(
                       text:
-                          "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\n\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
+                          "My name is Domenico Fernando Valentino, I'm 14 and live in Montreal, Canada. I am a passionate for comupters and electronics. I am fluent in languages like C++, C#, Javascript and my favourite, Java. My field of Interests are building new Desktop applications and web servers, Deep Learning and Natural Launguage Processing, Simple UI/UX design, and especially Robots.",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n\n",
+                          "Whenever possible, I also apply my passion for developing products with Node.js and SDKs such as Flutter and React. My favourite thing to do is partake in the yearly First Robotics Competition (FRC), which is a yearly robot competition where 3 teams go head to head in a battle of scoring points. As I keep this site up-to-date, I will be sure to post my wins as this is our first time since COVID.",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Here are a few technologies I've been working with recently:\n\n",
+                          "Here are a few of the tool I like to use:\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       // fontWeight: FontWeight.w500,
@@ -111,8 +112,10 @@ class About extends StatelessWidget {
                         child: Column(
                           children: [
                             technology(context, "Dart"),
+                            technology(context, "NodeJS"),
                             technology(context, "Flutter"),
                             technology(context, "Firebase"),
+                            technology(context, "Windows Batch/CMD"),
                             technology(context, "UI/UX (Adobe Xd)"),
                           ],
                         ),
@@ -123,6 +126,8 @@ class About extends StatelessWidget {
                         child: Column(
                           children: [
                             technology(context, "C/C++, Java."),
+                            technology(context, "WPILIB"),
+                            technology(context, "Linux/Unix/MacOS"),
                             technology(context, "HTML & (S)CSS"),
                             technology(context, "MYSQL"),
                             technology(context, "Git - Github"),
