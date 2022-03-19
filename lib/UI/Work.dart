@@ -32,7 +32,7 @@ class _WorkState extends State<Work> {
                 width: 12.0,
               ),
               CustomText(
-                text: "Where I've Worked",
+                text: "What I've done",
                 textsize: 26.0,
                 color: Color(0xffCCD6F6),
                 fontWeight: FontWeight.w700,
@@ -74,23 +74,25 @@ class _WorkState extends State<Work> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.pink,
-                                child: FaIcon(FontAwesomeIcons.laptopHouse,
+                                backgroundColor: Colors.blue,
+                                child: FaIcon(FontAwesomeIcons.school,
                                     color: Colors.white),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.red,
-                                child: FaIcon(FontAwesomeIcons.freeCodeCamp,
+                                backgroundColor:
+                                    Color.fromARGB(255, 238, 214, 0),
+                                child: FaIcon(FontAwesomeIcons.robot,
                                     color: Colors.white),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.brown,
-                                child: FaIcon(FontAwesomeIcons.laptopCode,
+                                backgroundColor:
+                                    Color.fromARGB(255, 238, 214, 0),
+                                child: FaIcon(FontAwesomeIcons.robot,
                                     color: Colors.white),
                               ),
                               CircleAvatar(
                                 backgroundColor: Colors.deepOrange,
-                                child: FaIcon(FontAwesomeIcons.coffee,
+                                child: FaIcon(FontAwesomeIcons.toolbox,
                                     color: Colors.white),
                               ),
                               CircleAvatar(
