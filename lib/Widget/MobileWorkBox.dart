@@ -9,35 +9,33 @@ class MobileWork extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         WorkCustomData(
-          title: "Sandip Institute Of Engineering & Management Nashik",
-          subTitle:
-              "I am currently pursuing Bachelor's Degree in Computer Science and Engineering \nat Savitribai Phule Pune University",
-          duration: "2016 - Present",
+          title: "Regina Assumpta College in Montreal",
+          subTitle: "I am currently pursuing Robotics and Computer science",
+          duration: "2019 - Present Until 2024",
         ),
         WorkCustomData(
-          title: "Flutter + Dart Development Winter Bootcamp",
+          title: "FIRST Tech Challenge",
           subTitle:
-              "The Complete 2020 Flutter + Dart Winter Development Bootcamp at LCO Training Center,\nJaipur, Rajasthan (302017), Covering all the fundamental concepts for Flutter development",
+              "FIRST Tech Challenge, formerly known as FIRST Vex Challenge, is a robotics competition\n for students in grades 7–12. We did not get to entering the competition because of COVID but we got alot done.",
           duration: "Dec - 2019 to Feb - 2020",
         ),
         WorkCustomData(
-          title:
-              "Freelancer - Flutter | Dart Mobile App Developer | UI - UX Designer",
+          title: "FIRST Robotics Competition",
           subTitle:
-              "Flutter Developer and experienced programmer with an extensive history of designing and coding \nsolutions. Skilled in Google’s Flutter/Dart, Firebase App and Web development on a global scale. If you \nare looking for someone that you can trust that will complete your app on time and on budget, then \nplease contact me. I have been developing software for 1+ years and take pride in everything I do.",
-          duration: "Oct - 2019 to Nov - 2020",
+              "The FIRST Robotics Competition is an international high school robotics competition.\n Each year, teams of high school students, coaches, and mentors work during a six-week period\n to build robots capable of competing in that year's game that weigh up to 125 pounds.",
+          duration: "Nov - 2020 to Present",
         ),
         WorkCustomData(
-          title: "Mentor at Contributor's Hack, 2020",
+          title: "Expanse of Porfolio",
           subTitle:
-              "Working as a mentor in HakinCode organization for Flutter CodeAsylums application \n where I can utilize my skills and be an asset to the organization",
-          duration: "Sep 2020 - Oct 2020",
+              "As I am still trying to secure a comfortable position for myself,\n I have spent the last 3 expanding my Portofolio by learning every Language under the sun. I also know\n full automation on Shell for linux as I have my own server in my basement.",
+          duration: "Sep 2019 - Present",
         ),
         WorkCustomData(
-          title: "Flutter Intern at Mind Sports League | Gurgaon In",
+          title: "Freelancer to build pretty much anything",
           subTitle:
-              "Building world class Poker Learning platform. Poker Sports League is India’s first poker league is to sportify the game of poker through a unique, team based format",
-          duration: "Nov - 2020 Present",
+              "I have many connections and people that are paying me to build / develop \nfully fledged systems from the bottom up. Whether it be a iOS app or a fully automated greenhouse with mutliple cameras, Unix server and web UI",
+          duration: "Nov - 2020 to Present",
         ),
       ],
     );

@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -152,15 +154,14 @@ class _HomePageState extends State<HomePage> {
                             child: FlatButton(
                               hoverColor: Color(0xFF3E0449),
                               onPressed: () {
-                                method.launchURL(
-                                    "#");
+                                method.launchURL("https://github.com/domilx");
                               },
                               child: Padding(
                                 padding: const EdgeInsets.symmetric(
                                   horizontal: 8.0,
                                 ),
                                 child: Text(
-                                  "Resume",
+                                  "GitHub",
                                   style: TextStyle(
                                     color: Color(0xff64FFDA),
                                   ),
@@ -196,7 +197,8 @@ class _HomePageState extends State<HomePage> {
                             color: Color(0xffffA8B2D1),
                             iconSize: 16.0,
                             onPressed: () {
-                              method.launchURL("https://www.instagram.com/domivltn/");
+                              method.launchURL(
+                                  "https://www.instagram.com/domivltn/");
                             }),
                         IconButton(
                           icon: FaIcon(FontAwesomeIcons.reddit),
@@ -323,8 +325,6 @@ class _HomePageState extends State<HomePage> {
                                 ],
                               ),
 
-                              
-
                               //About Me
                               _wrapScrollTag(
                                 index: 0,
@@ -335,10 +335,7 @@ class _HomePageState extends State<HomePage> {
                               ),
 
                               //Where I've Worked with
-                              _wrapScrollTag(
-                                index: 1,
-                                child:Work()
-                              ),
+                              _wrapScrollTag(index: 1, child: Work()),
                               SizedBox(
                                 height: size.height * 0.10,
                               ),
@@ -355,20 +352,20 @@ class _HomePageState extends State<HomePage> {
                                       SizedBox(
                                         height: size.height * 0.04,
                                       ),
-                                      
                                       FeatureProject(
                                         imagePath: "images/Robot2020.png",
                                         ontab: () {
-                                          method.launchURL("https://github.com/DevFolio");
+                                          method.launchURL(
+                                              "https://github.com/DevFolio");
                                         },
                                         projectDesc:
                                             "The FIRST Robotics Competition is an international high school robotics competition. Each year, teams of high school students, coaches, and mentors work during a six-week period to build robots capable of competing in that year's game that weigh up to 125 pounds. !*!*! This is a picture of the 2020 robot as the 2022 isnt done yet...",
-                                        projectTitle: "FRC Robotics Competitions",
+                                        projectTitle:
+                                            "FRC Robotics Competitions",
                                         tech1: "Java",
                                         tech2: "WPILIB",
                                         tech3: "LabVIEW RoboRIO",
                                       ),
-                                      
                                       FeatureProject(
                                         imagePath: "images/DevFolio.png",
                                         ontab: () {
@@ -382,7 +379,6 @@ class _HomePageState extends State<HomePage> {
                                         tech2: "Flutter Web",
                                         tech3: "App",
                                       ),
-                                      
                                       FeatureProject(
                                         imagePath: "images/editor.png",
                                         ontab: () {
@@ -396,7 +392,6 @@ class _HomePageState extends State<HomePage> {
                                         tech2: "NodeJS",
                                         tech3: "Markdown",
                                       ),
-
                                       FeatureProject(
                                         imagePath: "images/defcry.png",
                                         ontab: () {
@@ -410,7 +405,6 @@ class _HomePageState extends State<HomePage> {
                                         tech2: "Lua",
                                         tech3: "JavaScript",
                                       ),
-
                                       FeatureProject(
                                         imagePath: "images/domiExec.png",
                                         ontab: () {
@@ -424,7 +418,6 @@ class _HomePageState extends State<HomePage> {
                                         tech2: "C#",
                                         tech3: "Xaml",
                                       ),
-                                      
                                       FeatureProject(
                                         imagePath: "images/tsm.png",
                                         ontab: () {
@@ -438,7 +431,6 @@ class _HomePageState extends State<HomePage> {
                                         tech2: "C#",
                                         tech3: "Xaml",
                                       ),
-                                      
                                       FeatureProject(
                                         imagePath: "images/port.png",
                                         ontab: () {

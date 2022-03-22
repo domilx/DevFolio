@@ -26,7 +26,7 @@ class WorkBox extends StatelessWidget {
           duration: "Nov - 2020 to Present",
         ),
         WorkCustomData(
-          title: "Expanse of Porfolio",
+          title: "Expansion of Porfolio",
           subTitle:
               "As I am still trying to secure a comfortable position for myself,\n I have spent the last 3 expanding my Portofolio by learning every Language under the sun. I also know\n full automation on Shell for linux as I have my own server in my basement.",
           duration: "Sep 2019 - Present",

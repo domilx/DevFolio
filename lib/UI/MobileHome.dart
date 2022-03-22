@@ -104,7 +104,8 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.04,
               ),
               CustomText(
-                text: "I build Apps for Android, iOS, the web and robots.",
+                text:
+                    "I build Apps for pretty much every platform, yeah, even professional robots.",
                 textsize: 42.0,
                 color: Color(0xffCCD6F6).withOpacity(0.6),
                 fontWeight: FontWeight.w700,
@@ -213,7 +214,7 @@ class _MobileHomeState extends State<MobileHome> {
                         children: [
                           CustomText(
                             text:
-                                "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n",
+                                "My name is Domenico Fernando Valentino, I'm 14 and live in Montreal, Canada. I am a passionate for comupters and electronics. I am fluent in languages like C++, C#, Javascript and my favourite, Java. My field of Interests are building new Desktop applications and web servers, Deep Learning and Natural Launguage Processing, Simple UI/UX design, and especially Robots.",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -221,7 +222,7 @@ class _MobileHomeState extends State<MobileHome> {
                           ),
                           CustomText(
                             text:
-                                "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n",
+                                "Whenever possible, I also apply my passion for developing products with Node.js and SDKs such as Flutter and React. My favourite thing to do is partake in the yearly First Robotics Competition (FRC), which is a yearly robot competition where 3 teams go head to head in a battle of scoring points. As I keep this site up-to-date, I will be sure to post my wins as this is our first time since COVID.",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -229,7 +230,7 @@ class _MobileHomeState extends State<MobileHome> {
                           ),
                           CustomText(
                             text:
-                                "Here are a few technologies I've been working with recently:\n\n",
+                                "Here are a few of the tools I like to use:\n\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -254,18 +255,22 @@ class _MobileHomeState extends State<MobileHome> {
                               children: [
                                 technology(context, "Dart"),
                                 technology(context, "Flutter"),
+                                technology(context, "NodeJS"),
                                 technology(context, "Firebase"),
-                                technology(context, "UI/UX (Adobe XD)"),
+                                technology(context, "Windows Batch/CMD"),
+                                technology(context, "UI/UX (Adobe Xd)"),
                               ],
                             ),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                technology(context, "C/C++"),
-                                technology(context, "HTML, & (S)Css"),
+                                technology(context, "C/C++, Java."),
+                                technology(context, "WPILIB"),
+                                technology(context, "Linux/Unix/MacOS"),
+                                technology(context, "HTML & (S)CSS"),
                                 technology(context, "MYSQL"),
-                                technology(context, "Java"),
+                                technology(context, "Git - Github"),
                               ],
                             ),
                           ],
@@ -333,7 +338,7 @@ class _MobileHomeState extends State<MobileHome> {
                     width: 12.0,
                   ),
                   CustomText(
-                    text: "Where I've Worked",
+                    text: "What I've done",
                     textsize: 26.0,
                     color: Color(0xffCCD6F6),
                     fontWeight: FontWeight.w700,
@@ -381,288 +386,6 @@ class _MobileHomeState extends State<MobileHome> {
                     width: size.width * 0.04,
                     height: 1.10,
                     color: Color(0xff303C55),
-                  ),
-                ],
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic9.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic2.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic3.png",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic4.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic5.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic6.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic7.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic8.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic10.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic11.jpg",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic102.gif",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic104.png",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic105.png",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic106.png",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic107.jfif",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic108.jfif",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic109.jfif",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              MobileProject(
-                ontab: () {},
-                image: "images/pic110.jfif",
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              Row(
-                children: [
-                  Container(
-                    width: size.width * 0.42,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic101.png"),
-                    ),
-                  ),
-                  Spacer(),
-                  Container(
-                    width: size.width * 0.42,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic103.png"),
-                    ),
-                  ),
-                ],
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              Row(
-                children: [
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic111.gif"),
-                    ),
-                  ),
-                  Spacer(),
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic113.jfif"),
-                    ),
-                  ),
-                ],
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              Row(
-                children: [
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic114.png"),
-                    ),
-                  ),
-                  Spacer(),
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic115.png"),
-                    ),
-                  ),
-                ],
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              Row(
-                children: [
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic116.jfif"),
-                    ),
-                  ),
-                  Spacer(),
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic117.png"),
-                    ),
-                  ),
-                ],
-              ),
-
-              SizedBox(
-                height: size.height * 0.07,
-              ),
-
-              Row(
-                children: [
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic118.jpeg"),
-                    ),
-                  ),
-                  Spacer(),
-                  Container(
-                    width: size.width * 0.44,
-                    height: size.height * 0.6,
-                    child: Image(
-                      image: AssetImage("images/pic119.jpeg"),
-                    ),
                   ),
                 ],
               ),
