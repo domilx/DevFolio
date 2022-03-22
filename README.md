@@ -1,14 +1,32 @@
+<h2 align="center">
+  Dev Portfolio - v4.2<br/>
+  <a href="http://domidev.net/" target="_blank">domidev.net</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="https://github.com/domilx/DevFolio/blob/master/assets/images/DevFolio.png?raw=true" />
+</div>
 
-## Dev Portfolio
+<br/>
 
+<center>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com) &nbsp;
+
+</center>
+
+<h3 align="center">
+    🔹
+    <a href="https://github.com/domilx/Portfolio3.0/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/domilx/Portfolio3.0/issues">Request Feature</a>
+</h3>
+
+##
 
 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer. A lightweight, customizable single-page personal portfolio website template built using Dart, Flutter web.
-
-
-
-
-## To view a live demo,[Click Here](https://domidev.net).
-
 
 
 ##  Platforms
